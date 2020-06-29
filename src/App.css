@@ -1,0 +1,120 @@
+
+/*================ Main app */
+.App{
+  display:flex;
+}
+
+.total{
+  display:flex;
+  flex-direction:row;
+}
+
+.nav-bar{
+  position:fixed;
+  width:100%;
+  z-index:1
+}
+button{
+  box-sizing: border-box;
+  text-align:center;
+  height:50px;
+  width:100px;
+  border:2px  solid black;
+  border-radius:4px;
+  margin:10px;
+}
+
+
+ .renderList{
+  margin:5px;
+  display:flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: flex-start;
+  /* flex-direction:column; */
+  
+  box-sizing: border-box;
+  text-align:center;
+  height:100px;
+  width:800px;
+  border:2px  solid black;
+  border-radius:4px;
+  overflow-y:scroll;
+} 
+
+/* .editDelete{
+  position:relative;
+  left:30px;
+} */
+
+.notes{
+  display:inline-block;
+  overflow-wrap: break-word
+}
+/* .notes{
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+  overflow:scroll;
+
+} */
+/* .fullList{
+  margin:20px;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  
+ 
+ 
+} */
+
+.card{
+  width:500px;
+}
+
+.search{
+margin-left:1000px;
+margin-top:10px; 
+z-index:1;
+position:fixed;
+}
+
+/* .App-header {
+  background-color:black;
+  min-height: 15vh; 
+  display: flex;
+  flex-direction:row;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+} */
+
+
+ .App-sidebar{
+  background-color:lightseagreen;
+  /* position:fixed; */
+  min-height: 100vh; 
+  display: flex; 
+  width:300px;
+  /* display:flex;
+  flex-direction:row;
+  justify-content:center; 
+  align-items: flex-end; */
+  font-size: calc(10px + 2vmin);
+  color: white;
+} 
+
+.inputDiv{
+  width:300px;
+  margin-top:450px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+}
+
+  .dataList{
+  margin-top:12vh;
+} 
